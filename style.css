@@ -109,7 +109,7 @@ footer a{
     width: 150%;
     height: 30%;
     border-radius: 25px;
-    
+   top: 0; 
     color: #97D9E1;
     background-color: #4158D0;
 }
@@ -117,4 +117,9 @@ footer a{
     background-color: blueviolet;
     color: black;
 
+}
+.stycky{
+   position: fixed;
+   top: 0;
+   width: 100%;
 }
