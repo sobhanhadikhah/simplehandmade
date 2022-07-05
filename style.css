@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lemonada&display=swap');
+body{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lemonada', cursive;
+    
+    margin: auto 0;
+}
+.push{
+    margin-left: auto;
+    
+}
+.mainnav li {
+    
+    padding: 20px;
+    font-size: 1em;
+    display: inline-block;
+    transition: all 0.5s;
+    
+
+}
+.mainnav  a{
+    transition: all 0.5s;
+    color: black;
+    text-decoration: none;
+}
+.mainnav a:hover {
+    transform: scale(1.1);
+    color: orange;
+    
+}
+.mainnav{
+
+
+    margin: 0;
+    display: flex;
+    box-shadow: 5px 5px 5px orange ;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+}
+.mainnav li:hover {
+    transform: scale(1.2);
+        
+}
+@media only screen and (max-width:600px){
+    .mainnav li {
+        justify-content: left;    
+    align-items: left;
+        padding: 0;
+        font-size: small;
+    }
+}
+.contentme{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.cover{
+    
+    cursor: pointer;
+    color: black;
+    height: 50vh;   
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+.colorb{
+
+    background-color: bisque;
+    border-radius: 25px;
+}
+.gridview{
+
+    margin: 1em;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+}
+.boxzon img{
+    
+    width: 100%;
+    height: auto;
+}
+.box{
+    cursor: pointer;
+    margin-left: 25px;
+    padding: 125px;
+    transition: all 1s;
+}
+.box:hover{
+    top: -5;
+
+    box-shadow:  5px 5px 5px 5px #FFCC70;
+}
+footer{
+    height: 10vh;
+    text-align: center;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+footer a{
+    text-align: left;
+    padding: 10px;
+    margin: 12px;
+}
+.colorb  button{
+    transition: all 1s;
+    cursor: pointer;
+    font-size: 1em;
+    width: 150%;
+    height: 30%;
+    border-radius: 25px;
+    
+    color: #97D9E1;
+    background-color: #4158D0;
+}
+.colorb  button:hover{
+    background-color: blueviolet;
+    color: black;
+
+}
